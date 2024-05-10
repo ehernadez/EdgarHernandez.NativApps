@@ -1,0 +1,22 @@
+﻿INSERT INTO [Products]
+    (
+      [Name]
+     ,[Category]
+     ,[Detail]
+     ,[Price]
+     ,[InitialQuantity]
+     ,[AvailableQuantity]
+     ,[CreatedBy]
+     ,[CreatedOn]
+    )
+VALUES
+    (
+      @Name
+     ,@Category
+     ,@Detail
+     ,@Price
+     ,@InitialQuantity
+     ,@AvailableQuantity
+     ,@CreatedBy
+     ,@CreatedOn
+	); 
